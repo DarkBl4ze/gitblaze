@@ -1,0 +1,80 @@
+@keyframes float-1 {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(20px, 10px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+  @keyframes float-2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(-20px, -10px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+  @keyframes float-3 {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(10px, -20px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+  @keyframes float-4 {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(-10px, 20px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+  @keyframes float-5 {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(30px, 15px);
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+  .animate-float-1 {
+    animation: float-1 8s ease-in-out infinite;
+  }
+  
+  .animate-float-2 {
+    animation: float-2 8s ease-in-out infinite;
+  }
+  
+  .animate-float-3 {
+    animation: float-3 8s ease-in-out infinite;
+  }
+  
+  .animate-float-4 {
+    animation: float-4 8s ease-in-out infinite;
+  }
+  
+  .animate-float-5 {
+    animation: float-5 8s ease-in-out infinite;
+  }
+  
